@@ -1,0 +1,71 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  /* overflow: hidden; */
+  margin-inline: auto;
+  margin-block: 0;
+}
+
+.hero .hero-text {
+  text-align: start;
+  width: 35rem;
+  /* padding: 1rem; */
+}
+
+.hero .hero-text h2 {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-medium);
+  margin-bottom: var(--size-01);
+}
+
+.hero .hero-text .claim {
+  font-family: var(--ff-claim);
+  font-size: var(--fs-claim);
+  font-weight: var(--fw-medium);
+  line-height: 6.5rem; /* 113.043% */
+  margin-bottom: var(--size-01);
+}
+
+.hero .hero-text p {
+  margin-bottom: var(--size-04);
+}
+
+.hero .hero-text .btn {
+  border: 0.125rem solid var(--clr-basic-800);
+  background: var(--clr-primary-400);
+  padding: var(--padding-btn);
+  box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
+}
+
+.hero .hero-text .btn:hover {
+  background: var(--clr-primary-500);
+}
+
+.hero .hero-text .btn:active {
+  background: var(--clr-primary-600);
+}
+
+.hero .image {
+  width: 50vw;
+  background: var(--clr-accent-green);
+  border-left: 0.5px solid var(--clr-basic-800);
+}
+.hero .image img {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  width: 20%;
+  height: auto;
+}
+
+.test-bar {
+  width: 100vw;
+  height: 10rem;
+  background: black;
+}

@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+/* html {
+  font-size: 62.5%;
+} */
+
 /* Remove default margin */
 body,
 h1,
@@ -109,7 +113,7 @@ picture {
   --fs-750: 2.5rem; /* 40 Mobile*/
   --fs-800: 3rem; /* 48 */
   --fs-850: 3.5rem; /* 56 Mobile*/
-  --fs-900: 5.75rem; /* 92 */
+  --fs-900: 5rem; /* 92 */
 
   --fs-body :var(--fs-400);
   --fs-primary-heading: var(--fs-800) ;
@@ -136,15 +140,17 @@ picture {
   --size-07: 7rem;
   --size-0750: 7.5rem;
 
+  --padding-btn:  1.125rem 2.5rem;
   --padding-block: ;
-  --padding-inline: ;
+  --padding-inline: 2rem;
 
   --margin-block: ;
   --margin-inline:  10.5rem;
 }
 
 section {
-   min-width: 97.125em; /* 1554px */
+  padding-inline: 2rem;
+   max-width: 97.125em; /* 1554px */
 }
 
 @media screen and (max-width: 53em) {

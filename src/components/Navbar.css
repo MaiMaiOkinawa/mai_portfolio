@@ -1,7 +1,7 @@
 header {
   width: 100vw;
   /* height: 5.125rem; */
-  border-bottom: 0.125rem solid #212429;
+  border-bottom: 0.125rem solid var(--clr-basic-800);
   /* margin-top: -0.1rem; */
 }
 
@@ -13,7 +13,7 @@ nav {
   text-align: start;
   margin-inline: auto;
   /* height: 5.125rem; */
-  padding: 0.7rem 0rem;
+  padding: 0.7rem 1rem;
 }
 
 nav .logo {
