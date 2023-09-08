@@ -1,0 +1,25 @@
+.skill {
+  text-align: start;
+  /* display: flex;
+  gap: var(--size-05); */
+}
+
+.skill .skill-content {
+  width: 48.75rem;
+}
+
+.skill .icon-container {
+  display: flex;
+  gap: var(--size-02);
+}
+
+.skill .icon-container .icon {
+  /* width: 11rem; */
+  /* height: auto; */
+  border: 0.125rem solid var(--clr-basic-800);
+
+  padding: 1rem;
+  box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
+
+  /* margin-right: var(--size-0150); */
+}

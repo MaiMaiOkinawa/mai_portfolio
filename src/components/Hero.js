@@ -1,5 +1,6 @@
 import "./Hero.css";
 import HeroImg from "../assets/hero.png";
+import Button from "./Button";
 
 function Hero(props) {
   return (
@@ -13,15 +14,12 @@ function Hero(props) {
             I’m a programmer based in Spain, and I’m very passionate and
             dedicated to my work.
           </p>
-          <a className="btn" href="#about">
-            About me
-          </a>
+          <Button className="btnAbout" href="/#about" text="About me" />
         </div>
         <div class="image">
           <img src={HeroImg} className="image" alt="" />
         </div>
       </section>
-      <div className="test-bar"></div>
     </>
   );
 }

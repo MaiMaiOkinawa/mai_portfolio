@@ -1,8 +1,6 @@
 header {
   width: 100vw;
-  /* height: 5.125rem; */
   border-bottom: 0.125rem solid var(--clr-basic-800);
-  /* margin-top: -0.1rem; */
 }
 
 nav {
@@ -12,7 +10,6 @@ nav {
   justify-content: space-between;
   text-align: start;
   margin-inline: auto;
-  /* height: 5.125rem; */
   padding: 0.7rem 1rem;
 }
 
@@ -34,7 +31,6 @@ nav .menu {
 
 nav .menu i {
   font-size: 2rem;
-  /* border-radius: 0.2rem; */
 }
 
 nav .logo {
@@ -52,13 +48,9 @@ nav ul {
 }
 
 nav ul li {
-  /* border-right: 0.125rem solid var(--clr-basic-800); */
   color: var(--clr-basic-800);
   line-height: 1.5rem; /* 150% */
   height: 100%;
-  /* padding-inline: 2.5rem;
-  padding-block: 1.81rem; */
-  /* background: pink; */
 }
 
 nav ul li a {
@@ -66,14 +58,10 @@ nav ul li a {
   padding: rem;
   padding-inline: 2.5rem;
   padding-block: 1.75rem;
-  /* padding-inline: 4rem;
-  padding-top: 1.9rem;
-  padding-bottom: 1.81rem; */
-  /* background: greenyellow; */
-  /* padding: 15px; */
   margin: 0;
   height: 100%;
   border-right: 0.125rem solid var(--clr-basic-800);
+  transition: all 0.3s ease-in;
 }
 
 nav ul a:hover {
@@ -105,11 +93,6 @@ nav ul #contactBtn:active {
 
   nav .menu {
     display: flex;
-    /* height: 5.125rem; */
-    /* padding-top: 0.5rem; */
-    /* padding-left: 1rem; */
-    /* margin-inline: 1rem; */
-    /* border-left: 0.125rem solid #212429; */
   }
 
   nav ul {
@@ -130,20 +113,13 @@ nav ul #contactBtn:active {
   nav ul li {
     width: 100%;
     text-align: center;
-    /* margin-block: 1rem; */
   }
 
   nav ul li a {
-    /* background-color: pink; */
     border-right: none;
-    /* margin: 0.2rem 0.5rem; */
-    /* padding: 0; */
     padding-inline: 2.5rem;
     padding-block: 1rem;
     width: 100%;
     display: block;
-  }
-
-  nav ul #contactBtn {
   }
 }

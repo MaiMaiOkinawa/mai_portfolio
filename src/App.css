@@ -48,6 +48,7 @@ body {
   background-color: var(--clr-accent-yellow);
   color: var(--clr-basic-900);
   text-align: center;
+  overflow-x: hidden;
 }
 
 /* A elements that don't have a class get default styles */
@@ -57,6 +58,7 @@ a:not([class]) {
 
 a {
   text-decoration: none;
+  cursor: pointer;
   color: var(--clr-basic-900);
 }
 
@@ -65,6 +67,10 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
 }
 
 :root {
@@ -149,7 +155,8 @@ picture {
 }
 
 section {
-  padding-inline: 2rem;
+  margin-inline: auto;
+  padding:5rem 2rem;
    max-width: 97.125em; /* 1554px */
 }
 
