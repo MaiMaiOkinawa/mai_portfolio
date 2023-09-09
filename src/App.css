@@ -44,7 +44,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: "IBM Plex Sans",  "Syne", sans-serif;
+  font-family: "IBM Plex Sans", "Syne", sans-serif;
   background-color: var(--clr-accent-yellow);
   color: var(--clr-basic-900);
   text-align: center;
@@ -94,7 +94,7 @@ picture {
 
   /* <-- basic-color --> */
   --clr-basic-100: hsl(0, 0%, 100%);
-  --clr-basic-800:hsl(218, 11%, 15%);
+  --clr-basic-800: hsl(218, 11%, 15%);
   --clr-basic-900: hsl(0, 0%, 0%);
 
   /* FONT FAMILY */
@@ -121,18 +121,18 @@ picture {
   --fs-850: 3.5rem; /* 56 Mobile*/
   --fs-900: 5rem; /* 92 */
 
-  --fs-body :var(--fs-400);
-  --fs-primary-heading: var(--fs-800) ;
+  --fs-body: var(--fs-400);
+  --fs-primary-heading: var(--fs-800);
   --fs-secondary-heading: var(--fs-700);
   --fs-claim: var(--fs-900);
   --fs-nav: var(--fs-400);
   --fs-button: var(--fs-400);
 
   /* OTHER SIZE */
-  --size-mid:.5rem
+  --size-mid: 0.5rem;
   --size-01: 1rem;
   --size-0125: 1.25rem;
-  --size-0150: 1.50rem;
+  --size-0150: 1.5rem;
   --size-02: 2rem;
   --size-0250: 2.5rem;
   --size-03: 3rem;
@@ -142,29 +142,29 @@ picture {
   --size-05: 5rem;
   --size-0550: 5.5rem;
   --size-06: 6rem;
-  --size-0650: 6.50rem;
+  --size-0650: 6.5rem;
   --size-07: 7rem;
   --size-0750: 7.5rem;
 
-  --padding-btn:  1.125rem 2.5rem;
+  --padding-btn: 1.125rem 2.5rem;
   --padding-block: ;
   --padding-inline: 2rem;
 
   --margin-block: ;
-  --margin-inline:  10.5rem;
+  --margin-inline: 10.5rem;
 }
 
 section {
   margin-inline: auto;
-  padding:5rem 2rem;
-   max-width: 97.125em; /* 1554px */
+  padding: 5rem 2rem;
+  max-width: 97.125em; /* 1554px */
 }
 
 @media screen and (max-width: 53em) {
-    :root {
-     --fs-body :var(--fs-500);
-     --fs-primary-heading: var(--fs-750) ;
-     --fs-secondary-heading: var(--fs-600);
-     --fs-claim: var(var(--fs-850))
-    }
+  :root {
+    --fs-body: var(--fs-500);
+    --fs-primary-heading: var(--fs-750);
+    --fs-secondary-heading: var(--fs-600);
+    --fs-claim: var(var(--fs-850));
+  }
 }

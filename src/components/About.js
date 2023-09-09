@@ -17,19 +17,21 @@ function About() {
             text="Hi there! I’m a programmer with a passion for all things digital. Whether it’s tinkering with code or designing user-friendly interfaces, I love using my skills and experience to bring people and technology closer together. With every project, I strive to create seamless, intuitive experiences that bridge the gap between humans and machines. From programming languages to linguistic skills, I’m constantly expanding my knowledge and refining my craft to deliver the best possible results. Let’s connect and bring your digital vision to life!"
           />
           <div className="btn-container">
-            <Button className="btnCv" href="#" text="Download my CV" />
-            <Icon
-              iconCName="iconIn"
+            <Button classNameBtn="btnCv" href="#" label="Download my CV" />
+            <a
               href="https://www.linkedin.com/in/mai-uchida-okinawa/"
-              src={inImg}
-              alt="linkedin icon"
-            />
-            <Icon
-              className="iconGit"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon className="iconIn" src={inImg} alt="linkedin icon" />
+            </a>
+            <a
               href="https://github.com/MaiMaiOkinawa"
-              src={gitImg}
-              alt="GuiHub icon"
-            />
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon className="iconGit" src={gitImg} alt="GuiHub icon" />
+            </a>
           </div>
         </div>
         <div className="content-right">

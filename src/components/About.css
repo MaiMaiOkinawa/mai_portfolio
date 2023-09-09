@@ -16,7 +16,7 @@
 
 .about p {
   font-size: var(--fs-500);
-  line-height: 2rem; /* 160% */
+  line-height: var(--size-02); /* 160% */
   margin-bottom: var(--size-03);
 }
 
@@ -45,7 +45,7 @@
 .iconIn,
 .iconGit {
   border: 0.125rem solid var(--clr-basic-800);
-  padding: 1rem;
+  padding: var(--size-01);
   box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
   transition: all 0.3s ease-in;
   margin-right: var(--size-0150);

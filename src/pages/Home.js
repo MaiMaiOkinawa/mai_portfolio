@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import TextLoop from "../components/TextLoop";
 import About from "../components/About";
 import Skill from "../components/Skill";
+import Project from "../components/Project";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <TextLoop />
       <About />
       <Skill />
+      <Project />
     </>
   );
 }

@@ -3,7 +3,6 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
   margin-inline: auto;
   margin-block: 0;
@@ -12,13 +11,16 @@
 
 .hero .hero-text {
   text-align: start;
-  width: 50vw;
+  padding-right: var(--size-02);
+  min-width: 40%;
+  width: 40rem;
+  max-width: 40vw;
 }
 
 .hero .hero-text h2 {
   font-size: var(--fs-700);
   font-weight: var(--fw-medium);
-  margin-bottom: var(--size-01);
+  margin-bottom: var(--size-mid);
 }
 
 .hero .hero-text .claim {
@@ -50,7 +52,7 @@
 }
 
 .hero .image {
-  width: 100%;
+  width: 47%;
   background: var(--clr-accent-green);
   border-left: 0.5px solid var(--clr-basic-800);
 }

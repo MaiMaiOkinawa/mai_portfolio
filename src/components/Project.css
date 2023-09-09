@@ -1,0 +1,59 @@
+.project {
+  text-align: start;
+}
+
+.project h1 {
+  font-family: var(--ff-primary-heading);
+  font-size: var(--fs-primary-heading);
+}
+
+.project .project-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--size-05);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--size-05);
+}
+
+.project .project-content h2 {
+  font-size: var(--fs-secondary-heading);
+  margin-bottom: var(--size-01);
+}
+
+.project .project-content p {
+  font-size: var(--size-0125);
+  line-height: var(--size-02); /* 160% */
+  margin-bottom: var(--size-03);
+}
+
+.project .project-content .btn {
+}
+
+.project .reverse {
+  text-align: left;
+  direction: rtl;
+}
+
+.project .project-content .content-wrapper {
+  /* min-width: 50%; */
+  /* width: 48.75rem; */
+  /* max-width: 50vw; */
+}
+
+.project .project-content .btn {
+  border: 0.125rem solid var(--clr-basic-800);
+  background: var(--clr-primary-400);
+  padding: var(--padding-btn);
+  box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
+  transition: all 0.3s ease-in;
+  margin-right: var(--size-0150);
+}
+
+.project .project-content .btn:hover {
+  background: var(--clr-primary-500);
+}
+
+.project .project-content .btn:active {
+  background: var(--clr-primary-600);
+}
