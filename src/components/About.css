@@ -84,3 +84,11 @@
 .about .content-right .pif {
   background: var(--clr-accent-purple);
 }
+
+@media screen and (max-width: 990px) {
+  .about {
+    text-align: start;
+    display: grid;
+    gap: var(--size-05);
+  }
+}

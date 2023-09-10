@@ -87,6 +87,7 @@ picture {
 
   --clr-accent-beige: hsl(26, 37%, 96%); /* <-- Baige bg color */
   --clr-accent-yellow: hsl(45, 73%, 96%); /* <-- Yellow bg color*/
+  --clr-accent-orange: hsla(45, 92%, 62%, 1);
   --clr-accent-green: hsl(175, 50%, 64%);
   --clr-accent-purple: hsl(224, 64%, 82%);
   --clr-accent-pink: hsl(313, 100%, 78%);
@@ -119,7 +120,7 @@ picture {
   --fs-750: 2.5rem; /* 40 Mobile*/
   --fs-800: 3rem; /* 48 */
   --fs-850: 3.5rem; /* 56 Mobile*/
-  --fs-900: 5rem; /* 92 */
+  --fs-900: 5rem; /* 80 */
 
   --fs-body: var(--fs-400);
   --fs-primary-heading: var(--fs-800);

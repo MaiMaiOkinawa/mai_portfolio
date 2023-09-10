@@ -26,13 +26,14 @@
 
 .skill .icon-container {
   display: flex;
+
   gap: var(--size-01);
 }
 
 .skill .icon-container .icon {
   width: 10rem;
   border: 0.125rem solid var(--clr-basic-800);
-  padding: 1rem;
+  padding: var(--size-01);
   box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
 
   margin-block: var(--size-04);
@@ -47,4 +48,24 @@
   background-position: center;
   background-size: cover;
   object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+  .skill .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-01);
+  }
+
+  .skill .icon-container .icon {
+    /* width: 10rem;
+    border: 0.125rem solid var(--clr-basic-800);
+    padding: var(--size-01);
+    box-shadow: 6px 6px 0px 0px var(--clr-basic-800); */
+
+    margin-block: var(--size-mid);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
 }

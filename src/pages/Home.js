@@ -4,6 +4,8 @@ import TextLoop from "../components/TextLoop";
 import About from "../components/About";
 import Skill from "../components/Skill";
 import Project from "../components/Project";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <About />
       <Skill />
       <Project />
+      <Contact />
+      <Footer />
     </>
   );
 }

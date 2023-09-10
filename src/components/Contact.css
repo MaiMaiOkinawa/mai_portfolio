@@ -1,0 +1,73 @@
+.contact {
+  background: var(--clr-accent-purple);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  border: 0.125rem solid var(--clr-basic-800);
+  box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
+  text-align: start;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.contact .contact-content {
+  width: 47%;
+}
+
+.contact .contact-content h1 {
+  font-family: var(--ff-primary-heading);
+  font-size: var(--fs-primary-heading);
+}
+
+.contact .contact-content .claim {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-claim);
+}
+
+.color-cards {
+  transform: translateY(45%);
+  position: absolute;
+}
+
+.card {
+  width: 100vw;
+  height: 4rem;
+}
+
+.orange {
+  background: var(--clr-accent-orange);
+}
+
+.coral {
+  background: var(--clr-accent-coral);
+}
+
+.green {
+  background: var(--clr-accent-green);
+}
+
+.big {
+  background: var(--clr-accent-orange);
+  height: 15rem;
+}
+
+@media screen and (max-width: 900px) {
+  .contact {
+    /* background: var(--clr-accent-purple); */
+    display: grid;
+    /* justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    border: 0.125rem solid var(--clr-basic-800);
+    box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
+    text-align: start;
+    padding-bottom: 0;
+    position: relative; */
+  }
+
+  .color-cards {
+    transform: translateY(100%);
+    position: absolute;
+  }
+}

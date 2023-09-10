@@ -1,5 +1,5 @@
 import "./Hero.css";
-import HeroImg from "../assets/hero.png";
+import ContactImg from "../assets/contact.png";
 import Button from "./Button";
 
 function Hero(props) {
@@ -17,11 +17,7 @@ function Hero(props) {
           <Button classNameBtn="btnAbout" href="/#about" label="About me" />
         </div>
         <div class="image">
-          <img
-            src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-            className="image"
-            alt=""
-          />
+          <img src={ContactImg} className="image" alt="" />
         </div>
       </section>
     </>

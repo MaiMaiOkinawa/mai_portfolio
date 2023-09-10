@@ -7,14 +7,19 @@
   margin-inline: auto;
   margin-block: 0;
   padding-block: 0;
+  background-color: var(--clr-accent-yellow);
 }
 
 .hero .hero-text {
+  padding-block: 2rem;
   text-align: start;
-  padding-right: var(--size-02);
+  /* padding-right: var(--size-02); */
   min-width: 40%;
   width: 40rem;
   max-width: 40vw;
+  height: 100%;
+  border-right: 2px solid var(--clr-basic-800);
+  /* background-color: var(--clr-accent-beige); */
 }
 
 .hero .hero-text h2 {
@@ -52,9 +57,7 @@
 }
 
 .hero .image {
-  width: 47%;
-  background: var(--clr-accent-green);
-  border-left: 0.5px solid var(--clr-basic-800);
+  margin-left: auto;
 }
 
 .hero .image img {

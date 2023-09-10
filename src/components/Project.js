@@ -58,7 +58,6 @@ function Project() {
           <img src={jsImg} alt="javascript app" />
         </div>
       </section>
-      ;
     </>
   );
 }

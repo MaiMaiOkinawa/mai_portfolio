@@ -27,18 +27,9 @@
   margin-bottom: var(--size-03);
 }
 
-.project .project-content .btn {
-}
-
 .project .reverse {
   text-align: left;
   direction: rtl;
-}
-
-.project .project-content .content-wrapper {
-  /* min-width: 50%; */
-  /* width: 48.75rem; */
-  /* max-width: 50vw; */
 }
 
 .project .project-content .btn {
@@ -56,4 +47,28 @@
 
 .project .project-content .btn:active {
   background: var(--clr-primary-600);
+}
+
+@media screen and (max-width: 990px) {
+  .project .project-content {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: var(--size-05);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--size-05); */
+  }
+
+  .project .project-content .btn {
+    display: block;
+    /* border: 0.125rem solid var(--clr-basic-800);
+  background: var(--clr-primary-400);
+  padding: var(--padding-btn);
+  box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
+  transition: all 0.3s ease-in;
+  margin-right: var(--size-0150); */
+    text-align: center;
+    margin-inline: auto;
+  }
 }
