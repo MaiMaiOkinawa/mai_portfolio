@@ -26,16 +26,16 @@
 
 .skill .icon-container {
   display: flex;
-
   gap: var(--size-01);
+  margin-top: var(--size-0250);
 }
 
 .skill .icon-container .icon {
-  width: 10rem;
+  width: 8rem;
+  aspect-ratio: 1;
   border: 0.125rem solid var(--clr-basic-800);
   padding: var(--size-01);
   box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
-
   margin-block: var(--size-04);
   display: flex;
   justify-content: center;
@@ -43,7 +43,8 @@
 }
 
 .skill .icon-container .icon img {
-  width: 80%;
+  width: 70%;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -57,15 +58,14 @@
     gap: var(--size-01);
   }
 
-  .skill .icon-container .icon {
-    /* width: 10rem;
-    border: 0.125rem solid var(--clr-basic-800);
-    padding: var(--size-01);
-    box-shadow: 6px 6px 0px 0px var(--clr-basic-800); */
+  .skill .skill-content {
+    min-width: initial;
+    width: 100%;
+    max-width: initial;
+  }
 
+  .skill .icon-container .icon {
+    flex-shrink: 2;
     margin-block: var(--size-mid);
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
   }
 }

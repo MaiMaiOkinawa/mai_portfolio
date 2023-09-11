@@ -3,12 +3,14 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <p className="logo">
-        Maï
-        <br />
-        Uchida
-      </p>
-      <p>© 2019-2023 Maïdemoselles</p>
+      <div className="footer-content">
+        <p className="logo">
+          Maï
+          <br />
+          Uchida
+        </p>
+        <p>© 2019-2023 Maïdemoselles</p>
+      </div>
     </footer>
   );
 }

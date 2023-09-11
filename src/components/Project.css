@@ -5,6 +5,7 @@
 .project h1 {
   font-family: var(--ff-primary-heading);
   font-size: var(--fs-primary-heading);
+  margin-bottom: var(--size-02);
 }
 
 .project .project-content {
@@ -23,7 +24,7 @@
 
 .project .project-content p {
   font-size: var(--size-0125);
-  line-height: var(--size-02); /* 160% */
+  line-height: var(--size-02);
   margin-bottom: var(--size-03);
 }
 
@@ -53,21 +54,10 @@
   .project .project-content {
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: repeat(2, 1fr);
-    gap: var(--size-05);
-    align-items: center;
-    justify-content: center;
-    margin-bottom: var(--size-05); */
   }
 
   .project .project-content .btn {
     display: block;
-    /* border: 0.125rem solid var(--clr-basic-800);
-  background: var(--clr-primary-400);
-  padding: var(--padding-btn);
-  box-shadow: 6px 6px 0px 0px var(--clr-basic-800);
-  transition: all 0.3s ease-in;
-  margin-right: var(--size-0150); */
     text-align: center;
     margin-inline: auto;
   }

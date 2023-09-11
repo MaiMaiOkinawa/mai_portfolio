@@ -4,17 +4,18 @@ header {
 }
 
 nav {
-  max-width: 97.125em; /* 1554px */
+  max-width: min(97.125em - var(--size-02)); /*  1554px */
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: start;
   margin-inline: auto;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 2rem;
 }
 
 nav .logo {
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 nav .menu {
@@ -84,7 +85,7 @@ nav ul #contactBtn:active {
   background: var(--clr-primary-600);
 }
 
-@media screen and (max-width: 53em) {
+@media screen and (max-width: 860px) {
   nav {
     flex-direction: column;
     align-items: start;
