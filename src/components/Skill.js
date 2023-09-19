@@ -12,7 +12,7 @@ import sqlImg from "../assets/mysql.svg";
 
 function Skill() {
   return (
-    <section className="skill">
+    <section className="skill" id="skill">
       <CardOne
         className="skill-content"
         title="What I do"

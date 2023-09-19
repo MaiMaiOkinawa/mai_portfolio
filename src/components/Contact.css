@@ -13,7 +13,10 @@
 
 .contact .contact-content {
   padding: 2rem;
-  /* width: 47%; */
+}
+
+.contact .contact-content p a {
+  text-decoration: underline;
 }
 
 .contact .contact-content img {
@@ -41,6 +44,8 @@
 }
 
 .card {
+  border-radius: 0;
+  border: 0;
   width: 100vw;
   height: 4rem;
 }

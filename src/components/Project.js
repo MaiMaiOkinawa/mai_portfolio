@@ -8,7 +8,7 @@ import jsImg from "../assets/js.jpg";
 function Project() {
   return (
     <>
-      <section className="project">
+      <section className="project" id="project">
         <h1>My work</h1>
         <div className="project-content">
           <div className="contente-wrapper">
@@ -35,7 +35,7 @@ function Project() {
             />
             <Button
               classNameBtn="btn"
-              href="https://www.heianmc.com/"
+              href="https://github.com/MaiMaiOkinawa/web-app-project-two"
               label="Visit it"
             />
           </div>

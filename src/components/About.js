@@ -9,7 +9,7 @@ import gitImg from "../assets/github.svg";
 function About() {
   return (
     <>
-      <section className="about">
+      <section className="about" id="about">
         <div className="content-left">
           <CardOne
             title="Who I am"
@@ -17,7 +17,11 @@ function About() {
             text="Hi there! I’m a programmer with a passion for all things digital. Whether it’s tinkering with code or designing user-friendly interfaces, I love using my skills and experience to bring people and technology closer together. With every project, I strive to create seamless, intuitive experiences that bridge the gap between humans and machines. From programming languages to linguistic skills, I’m constantly expanding my knowledge and refining my craft to deliver the best possible results. Let’s connect and bring your digital vision to life!"
           />
           <div className="btn-container">
-            <Button classNameBtn="btnCv" href="#" label="Download my CV" />
+            <Button
+              classNameBtn="btnCv"
+              href="https://flowcv.com/resume/9637gs47l5"
+              label="Download my CV"
+            />
             <a
               href="https://www.linkedin.com/in/mai-uchida-okinawa/"
               target="_blank"

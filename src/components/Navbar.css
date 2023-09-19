@@ -1,10 +1,13 @@
 header {
+  background: var(--clr-accent-yellow);
   width: 100vw;
   border-bottom: 0.125rem solid var(--clr-basic-800);
+  position: fixed;
+  z-index: 1000;
 }
 
 nav {
-  max-width: min(97.125em - var(--size-02)); /*  1554px */
+  max-width: min(97.125em - var(--size-02));
 
   display: flex;
   align-items: center;
@@ -45,7 +48,7 @@ nav ul {
   display: flex;
   padding: 0;
   margin: 0;
-  gap: rem;
+  gap: 0rem;
 }
 
 nav ul li {
@@ -62,7 +65,7 @@ nav ul li a {
   margin: 0;
   height: 100%;
   border-right: 0.125rem solid var(--clr-basic-800);
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 nav ul a:hover {
@@ -109,6 +112,7 @@ nav ul #contactBtn:active {
 
   nav ul.open {
     display: flex;
+    transform: translateY(0); /* Show the menu when it's open */
   }
 
   nav ul li {
