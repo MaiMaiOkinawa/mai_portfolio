@@ -1,4 +1,3 @@
-import Button from "./Button";
 import "./Project.css";
 
 function CardOne(props) {
