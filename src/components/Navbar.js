@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,24 +35,24 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/#about" onClick={closeMenu}>
+              <a href="#about" onClick={closeMenu}>
                 Who I am
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/#skill" onClick={closeMenu}>
+              <a href="#skill" onClick={closeMenu}>
                 What I do
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/#project" onClick={closeMenu}>
+              <a href="#project" onClick={closeMenu}>
                 My work
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/#contact" onClick={closeMenu}>
+              <a href="#contact" onClick={closeMenu}>
                 Contact me
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
