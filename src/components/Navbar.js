@@ -50,7 +50,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={closeMenu}>
+              <a href="#contact" onClick={closeMenu} id="contactBtn">
                 Contact me
               </a>
             </li>

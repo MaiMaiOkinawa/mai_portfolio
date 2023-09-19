@@ -89,7 +89,26 @@
 @media screen and (max-width: 990px) {
   .about {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* gap: var(--size-05); */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btnCv {
+    padding: 1rem;
+
+    margin-right: 0.6rem;
+  }
+
+  .iconIn,
+  .iconGit {
+    padding: var(--size-01);
+
+    margin-right: 0.6rem;
+  }
+
+  .about .content-right .diversity,
+  .about .content-right .curiosity,
+  .about .content-right .pif {
+    padding: 2.5rem 1rem;
   }
 }
