@@ -19,7 +19,7 @@ function Project() {
             />
             <Button
               classNameBtn="btn"
-              href="https://maimaiokinawa-mes.netlify.app/speak"
+              href="https://maimaiokinawa-mes.netlify.app"
               label="Visit it"
             />
           </div>
