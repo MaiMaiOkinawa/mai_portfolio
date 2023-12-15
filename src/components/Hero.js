@@ -16,7 +16,7 @@ function Hero(props) {
           </p>
           <Button
             classNameBtn="btnAbout"
-            href="https://azure-pegeen-38.tiiny.site"
+            href="https://amethyst-marty-66.tiiny.site"
             label="About me"
           />
         </div>
