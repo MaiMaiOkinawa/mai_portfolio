@@ -19,7 +19,7 @@ function About() {
           <div className="btn-container">
             <Button
               classNameBtn="btnCv"
-              href="https://amethyst-marty-66.tiiny.site"
+              https://silver-noelani-80.tiiny.site"
               label="Download my CV"
             />
             <a
