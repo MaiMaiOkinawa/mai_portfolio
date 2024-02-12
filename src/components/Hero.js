@@ -16,9 +16,10 @@ function Hero(props) {
           </p>
           <Button
             classNameBtn="btnAbout"
-            href="https://silver-noelani-80.tiiny.site"
+            href="https://flowcv.com/resume/9637gs47l5"
             label="About me"
           />
+              // href="https://silver-noelani-80.tiiny.site"
         </div>
         <div class="image">
           <img src={ContactImg} className="image" alt="" />
