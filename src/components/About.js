@@ -14,7 +14,7 @@ function About() {
           <CardOne
             title="Who I am"
             subTitle="I'm a Communicative Programmer"
-            text="Hi there! I’m a programmer with a passion for all things digital. Whether it’s tinkering with code or designing user-friendly interfaces, I love using my skills and experience to bring people and technology closer together. With every project, I strive to create seamless, intuitive experiences that bridge the gap between humans and machines. From programming languages to linguistic skills, I’m constantly expanding my knowledge and refining my craft to deliver the best possible results. Let’s connect and bring your digital vision to life!"
+            text="I'm a Language Data Specialist based in Spain, driven by a fervent passion for AI innovation. With extensive experience in linguistic analysis and technology integration, I bring a unique blend of skills to the table. My journey, engaging with over 100 nationalities and leading diverse teams, reflects my adaptability and leadership prowess. Currently exploring the realms of Data Engineering and Machine Learning, I seamlessly blend linguistic expertise with tech skills. Thriving in solo missions and collaborative environments, I consistently deliver user-centric designs, reflecting a commitment to excellence and continuous improvement."
           />
           <div className="btn-container">
             <Button
@@ -33,7 +33,7 @@ function About() {
               href="https://github.com/MaiMaiOkinawa"
               target="_blank"
               rel="noreferrer"
-            >
+            
               <Icon className="iconGit" src={gitImg} alt="GuiHub icon" />
             </a>
           </div>
