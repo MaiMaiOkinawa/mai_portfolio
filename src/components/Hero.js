@@ -10,9 +10,9 @@ function Hero(props) {
         <div className="hero-text">
           <h2>Hello, I'm</h2>
           <p className="claim">Maï Uchida.</p>
-          <h2>Language Data Specialist from Okinawa.</h2>
+          <h2>Programmer and Language Data Specialist from Okinawa. </h2>
           <p>
-            Hi there! I'm a Language Data Specialist based in Spain, driven by a passion for AI innovation. 
+            I'm a data aficionado based in Spain, deeply passionate about AI innovation.
           </p>
           <Button
             classNameBtn="btnAbout"
