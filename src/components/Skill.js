@@ -17,8 +17,7 @@ function Skill() {
         className="skill-content"
         title="What I do"
         subTitle="My skills"
-        text="I'm skilled in many programming languages, crafting user-friendly web interfaces. Proficient in React and responsive design, I create engaging and dynamic experiences. I collaborate effectively with cross-functional teams, translating designs into functional code. Adept at debugging and problem-solving, I ensure high-quality outcomes. Eager to learn and adaptable, I stay updated with industry trends. My attention to detail and creativity result in visually appealing websites. I embrace feedback and seek growth opportunities to enhance my skills. With a passion for frontend development, 
-I contribute to seamless user interactions."
+        text="Skilled in crafting user-friendly web interfaces using various programming languages like React for dynamic experiences. Effective collaboration with cross-functional teams to translate designs into functional code, adept at debugging and problem-solving. Eager to learn and adaptable, staying updated with industry trends. Attention to detail and creativity result in visually appealing websites. Proficient in Python, Numpy, Pandas, BeautifulSoup, Jupyter Notebook, Linux, and Bash Shell Scripting."
       />
 
       <div class="icon-container">
