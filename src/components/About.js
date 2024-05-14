@@ -1,10 +1,10 @@
-import "./About.css";
-import CardOne from "./CardOne";
-import CardTwo from "./CardTwo";
-import Button from "./Button";
-import Icon from "./Icon";
-import inImg from "../assets/linkedin.svg";
-import gitImg from "../assets/github.svg";
+import './About.css';
+import CardOne from './CardOne';
+import CardTwo from './CardTwo';
+import Button from './Button';
+import Icon from './Icon';
+import inImg from '../assets/linkedin.svg';
+import gitImg from '../assets/github.svg';
 
 function About() {
   return (
@@ -33,7 +33,7 @@ function About() {
               href="https://github.com/MaiMaiOkinawa"
               target="_blank"
               rel="noreferrer"
-            
+            >
               <Icon className="iconGit" src={gitImg} alt="GuiHub icon" />
             </a>
           </div>
