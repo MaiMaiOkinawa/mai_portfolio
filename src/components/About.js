@@ -13,7 +13,7 @@ function About() {
         <div className="content-left">
           <CardOne
             title="Who I am"
-            subTitle="I'm a Communicative Programmer"
+            subTitle="I am an AI enthusiast with linguistic expertise, tech skills, and leadership experience. "
             text="I'm a Language Data Specialist based in Spain, driven by a fervent passion for AI innovation. With extensive experience in linguistic analysis and technology integration, I bring a unique blend of skills to the table. My journey, engaging with over 100 nationalities and leading diverse teams, reflects my adaptability and leadership prowess. Currently exploring the realms of Data Engineering and Machine Learning, I seamlessly blend linguistic expertise with tech skills. Thriving in solo missions and collaborative environments, I consistently deliver user-centric designs, reflecting a commitment to excellence and continuous improvement."
           />
           <div className="btn-container">
